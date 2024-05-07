@@ -4,7 +4,7 @@ import pandas as pd
 
 ############# Pré-processamento ###############
 # Coleta e Integração
-arquivo = pd.read_csv('dados_dengue.csv')
+arquivo = pd.read_csv('./regressao_linear/dados_dengue.csv')
 
 anos = arquivo[['ano']]
 casos = arquivo[['casos']]
